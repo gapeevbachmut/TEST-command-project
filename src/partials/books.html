@@ -1,0 +1,36 @@
+<section class="section-books" id="books">
+  <div class="books-cont container">
+    <div class="books-navigation-cont">
+      <div class="books-title-cont">
+        <h2 class="books-title visually-hidden">Trending books</h2>
+        <h3 class="books-subtitle">Books</h3>
+        <span class="books-counter"></span>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-btn" type="button">
+          <span class="dropdown-btn-text">Categories</span>
+          <svg class="btn-icon-categories" width="12" height="8">
+            <use href="/img/sprite.svg#icon-arrow-down"></use>
+          </svg>
+        </button>
+        <ul class="books-dropdown-menu visually-hidden"></ul>
+      </div>
+    </div>
+    <div class="book-list-cont">
+      <span id="loader-one" class="loader visually-hidden"></span>
+      <ul class="books-list"></ul>
+      <div class="empty-message visually-hidden">
+        <svg class="books-search-icon" width="70" height="70">
+          <use href="/img/sprite.svg#icon-search"></use>
+        </svg>
+        <p class="empty-message-text">
+          Looks like this category is empty. Feel free to explore another one!
+        </p>
+      </div>
+      <span id="loader-two" class="loader visually-hidden"></span>
+      <button type="button" class="show-more-btn visually-hidden">
+        Show More
+      </button>
+    </div>
+  </div>
+</section>
