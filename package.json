@@ -1,11 +1,11 @@
 {
-  "name": "my-vite-template",
+  "name": "test-command-project",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/my-vite-template/",
+    "build": "vite build --base=/TEST-command-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
